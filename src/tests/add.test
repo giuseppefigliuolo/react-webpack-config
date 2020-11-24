@@ -1,0 +1,17 @@
+/* const add = (a, b) => a + b + 1;
+const generateGreeting = (name) => `Hello ${name}`;
+
+test("Should add 2 number", () => {
+  const result = add(4, 4);
+
+  //   if (result !== 9) {
+  //     throw new Error(`The result was ${result}. We were expecting 7`);
+  //   }
+
+  expect(result).toBe(9);
+});
+
+test("Should be Mike", () => {
+  const greeting = generateGreeting("Mike");
+  expect(greeting).toBe("Hello Mike");
+}); */
