@@ -9,10 +9,12 @@ export class AddExpensePage extends React.Component {
     this.props.history.push("/");
   };
   render() {
-    <div>
-      <h1>Add expense</h1>
-      <ExpenseForm onSubmit={this.onSubmit} />
-    </div>;
+    return (
+      <div>
+        <h1>Add expense</h1>
+        <ExpenseForm onSubmit={this.onSubmit} />
+      </div>
+    );
   }
 }
 
