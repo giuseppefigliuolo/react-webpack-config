@@ -19,12 +19,5 @@ exports[`should render Header correctly 1`] = `
   >
     Create Expense
   </[object Object]>
-  <[object Object]
-    activeClassName="is-active"
-    exact={true}
-    to="/edit"
-  >
-    Edit Expense
-  </[object Object]>
 </header>
 `;
