@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/app.js",
   output: {
     //   per l'output.path serve il percorso assoluto della cartella e quindi ci serviamo di __dirname e path.join
-    path: path.join(__dirname, "public"),
+    path: path.join(__dirname, "public", "dist"),
     filename: "bundle.js",
   },
   // loader
