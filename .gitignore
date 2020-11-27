@@ -1,5 +1,7 @@
 node_modules
 xxx.js
+xxxyarn.lock
+xxxyarn.log
 public/bundle.js
 public/bundle.js.map
 public/main.css
